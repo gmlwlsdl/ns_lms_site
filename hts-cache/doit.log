@@ -1,0 +1,8 @@
+https://lms.kyonggi.ac.kr/login.php -W -O "/home/nse_project" -%v
+File generated automatically on Tue, 14 Nov 2023 01:29:06, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

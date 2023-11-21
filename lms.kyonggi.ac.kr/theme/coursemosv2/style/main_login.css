@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* common */
+a { text-decoration:none; }
+h1, h2, h3, h4, h5, h6, p, ul { padding:0; margin:0; }
+h3 { display: block;font-weight: bold; }
+li { list-style:none; }
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea, pre, * { font-family: 'NanumBarunGothic', "나눔바른고딕", NanumGothic, "돋움", dotum, sans-serif; }
+html,body { padding:0; margin:0; height:100%; overflow:hidden; font-family: 'NanumBarunGothic', "나눔바른고딕", NanumGothic, "돋움", dotum, sans-serif; }
+.clear { clear:both; }
+label { font-weight: normal; }
+.btn { border: 0px solid transparent; border-radius: 0px;width:150px; height:40px; padding:0; line-height:40px; background-color:#ADB9C2; color:#2F4B61; font-size:15px; font-weight:600; text-align:center; display:block; margin:9px 0; }
+.btn-default { border-width:0; }
+.btn-ub-guest { height:30px; line-height:30px; font-size:13px; }
+.dropdown-menu { border-radius:0px; min-width:150px; }
+div[role="main"] ul, div[role="main"] ol { padding:0; }
+div#page, div#page-content, div#region-main, div[role="main"] { height:100%; }
+
+/******************************/
+/******** main_wrapper ********/
+/******************************/
+
+#page-site-index #page-content { margin:0; }
+#page-site-index #page-content #region-main { padding:0; }
+#page-login-index #page-content { margin:0; }
+#page-login-index #page-content #region-main { padding:0; }
+
+.main_login_wrapper { width:100%; height:100%; position:relative; min-width:1020px; min-height:660px; font-family: 'Nanum Gothic' !important; }
+
+.main_login_bg { height:100%; background-size:cover !important; margin-right:360px; position:relative; }
+
+.loginpage_1 .main_login_bg { background:url(../pix/login/loginpage_1.jpg) top center no-repeat; }
+.loginpage_2 .main_login_bg { background:url(../pix/login/loginpage_2.jpg) top center no-repeat; }
+.loginpage_3 .main_login_bg { background:url(../../../errorpage/error.html) top center no-repeat; }
+/*.loginpage_4 .main_login_bg { background:url(../pix/login/loginpage_4.jpg) top left no-repeat; }*/
+
+
+/* main_visual_txt */
+.main_visual_txt { position:absolute; width:100%; top:104px; padding-left:190px; text-align:center; }
+
+.main_visual_txt p { color:#fff; font-size:34px; line-height:36px; background:url(../pix/login/slogan_bg.png) top right no-repeat; display:inline-block; margin:0 auto;
+                     padding:40px 50px 0; letter-spacing:2px; }
+.main_visual_txt p span { color:rgba(255,255,255,0.6); font-size:15px; }
+
+
+/******************************/
+/******* main_login_left ******/
+/******************************/
+.main_login_bar { background-color:#26282A; width:190px; height:100%; position:relative; opacity:0.95;}
+.main_login_bar h1 { background:url(../pix/login/logo.png) no-repeat center #014da1; font-size:0; width:190px; height:68px; display:block; /*padding-top:45px; margin-left:20px;*/ }
+.main_login_bar .error_message.text-danger { font-weight:600; font-size:13px; background:#ff0606; color:#fff; margin:30px 20px -40px 20px; padding:10px; }
+
+
+/* login_box */
+.main_login_box { padding:0 20px; }
+.main_login_box h3 { font-size:16px; color:#fff; margin:25px 0 18px; }
+.form-group { margin-bottom:0; }
+form select, form input[type="text"], form input[type="password"], form.atto_form input[type="url"], select.singleselect,
+.main_login_input { width:150px; height:40px; border:none; font-size:13px; background-color:#ffffff; color:#999; margin-bottom:1px; padding-left:10px; border-radius: 0px;  border-radius:3px;}
+.main_login_btn { width:150px; height:40px; padding:0; line-height:40px; background-color:#f7941e; color:#fff; font-size:15px; font-weight:600; text-align:center; display:block; margin:9px 0; border-radius:3px;}
+.main_login_box .btn-default:hover, 
+.main_login_box .btn-default:focus, 
+.main_login_box .btn-default.focus, 
+.main_login_box .btn-default:active, 
+.main_login_box .btn-default.active, 
+.main_login_box .open>.dropdown-toggle.btn-default { color:#fff; background-color:#ea8307; }
+
+.main_login_txt { font-size:11px; color:#adb9c2; position:relative; padding:0 0 0 20px; }
+.main_login_txt input { position:absolute; left:0; top:0; margin:0; }
+
+/* sso login */
+.main_login_sso { margin-top:0; margin-bottom:5px;}
+.main_login_sso a { font-size:12px; color:#adb9c2; border-bottom:1px #9ba8b3 solid; }
+.main_login_sso a:hover { text-decoration:noen; }
+
+/* find_idpw */
+.main_login_find_idpw { margin-top:0; }
+.main_login_find_idpw a { font-size:12px; color:#adb9c2; /*border-bottom:1px #9ba8b3 solid;*/ }
+.main_login_find_idpw.public a { letter-spacing: -0.8px; } 
+
+.main_login_find_idpw_sso { margin-bottom:20px; }
+.main_login_find_idpw_sso a { font-size:12px; color:#adb9c2; border-bottom:1px #9ba8b3 solid; }
+
+/******************************/
+/****** main_login_bottom *****/
+/******************************/
+.main_login_bottom { position:absolute; bottom:0; }
+
+/* lang */
+.langdropdown .dropdown-menu>li { position: relative; }
+.langdropdown .dropdown-menu > li > a {	padding:5px 15px; display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 12px; clear: both; font-weight: 400; line-height: 1.42857143; color: #333; }
+.langdropdown .dropdown-menu > li .natinal_flag { position: absolute;top:0px; right: 15px; }
+.main_login_lang { margin:0 0 25px 20px; }
+.main_login_lang a { font-size:11px; color:#aeb9c5; }
+.main_login_lang .caret { margin:10px 0 0 5px; display:inline-block; width:0; height:0; vertical-align:top; border-top:4px solid #aeb9c5; border-right:4px solid transparent; border-left:4px solid transparent; content:""}
+
+/* sns */
+.main_login_sns { position:absolute; bottom:230px; right:20px; }
+.main_login_fb { background:url(../pix/login/sns_fb.png) no-repeat; width:30px; height:30px; display:inline-block; font-size:0; }
+.main_login_twit { background:url(../pix/login/sns_twit.png) no-repeat; width:30px; height:30px; display:inline-block; font-size:0; }
+
+.main_login_line { padding:0 20px 0 20px; }
+.main_login_line .line { border-top:1px solid #4B4C4F; height:1px; }
+
+.main_login_privacy { padding-top:10px; text-align: center; font-weight: 600; color: #fff; }
+.main_login_privacy a { color:#aeb9c5;  }
+
+/* copy */
+.main_login_copy { width:190px; height:180px;/*130px; background:url(../pix/login/bottom_bg.png);*/ padding:20px 20px 0 20px; font-size:11px; color:#8e9daa; line-height:20px; }
+.main_login_copy p { font-size:9px; color:#697b8e; line-height:16px; padding-top:13px; }
+
+
+/******************************/
+/****** main_login_right ******/
+/******************************/
+.main_login_right { position:absolute; right:0; top:0; width:360px; height:100%; background-color:#f2f4f5; }
+
+/* link */
+.main_login_link a { color:#333; font-weight:600; font-size:12px; line-height:50px; height:50px; width:/*85px*/113px; border-right:1px #e6e6e6 solid; padding:0 5px 0 /*35px*/55px; display:inline-block; background-position:/*15px*/30px center; }
+.main_login_link a:hover { color:#326ca6; }
+.main_link_qna { background:url(../../../errorpage/error.html) no-repeat; display:none !important; }
+.main_link_faq { background:url(../../../errorpage/error.html) no-repeat; }
+.main_link_manual { background:url(../../../errorpage/error.html) no-repeat; }
+.main_link_library { background:url(../../../errorpage/error.html) no-repeat; }
+
+/* main_login_list */
+.main_login_list { padding:30px 20px; height:280px; background-color:#fff; }
+.main_login_list h4 { font-size:16px; color:#326ca6; font-weight:600; margin-bottom:30px; }
+.main_login_list ul li a { color:#333; font-weight:600; font-size:13px; line-height:26px; padding-right:10px; /*background:url(../pix/login/arrow.png) no-repeat right center;*/ }
+.main_login_list ul li a:hover { color:#6a9920; }
+
+.main_login_menu01 { background:#e7e9eb; }
+.main_login_menu02 { background:#cfd6de; }
+.main_login_notice ul li { background:none; line-height:28px; font-weight:600; color:#333; text-decoration:none; font-size:13px;  overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.main_login_notice ul li a { background:none; color:#666; line-height:28px;}
+.main_login_notice ul li a:hover { font-weight:600; color:#333; text-decoration:none; }
+.main_login_notice .board_article li .first_article { margin:2px 0 5px 13px; color:#A7A7A7; font-size:11px; line-height: 18px; font-weight:normal;}
+.main_login_notice .board_article .title { vertical-align: middle; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; margin-right: 10px; }
+.main_login_notice .board_article li .first { font-weight: bold; }
+
+
+/* main_login_info */
+.main_login_info { padding:30px 20px; }
+.main_login_info .info_title { font-size:18px; color:#222; font-weight:600; padding-bottom:5px; }
+.main_login_info div { position:relative; box-shadow:1px 1px 2px #d9dbdc; background-color:#fff; }
+.main_login_info div:before,
+.main_login_info div:after { content:""; display:block; position:absolute; background-color:#f2f4f5; }
+.main_login_info a { color:#333; }
+.main_login_info a:hover { text-decoration:none; }
+
+.main_login_info .info_use:before { width:1px; height:260px; top:0; left:50%; }
+.main_login_info .info_use:after { width:100%; height:1px; top:50%; left:0; }
+
+.main_login_info .related_site:before { width:1px; height:260px; top:0; left:50%; }
+/*.main_login_info .related_site div:after { width:100%; height:1px; top:50%; left:0; }*/
+
+.main_login_info div li { float:left; width:50%; font-size:13px; font-weight:600; }
+
+.main_login_info .info_use { height:260px; margin-bottom:30px; }
+.main_login_info .info_use li { height:130px; text-align:center; padding-top:20px; }
+.main_login_info .info_use li:before { content:""; display:block; width:62px; height:62px; border-radius:50%; background-color:#ebf2f5; background-position:center;
+                                       background-repeat:no-repeat; margin:0 auto 10px;  }
+.main_login_info .info_use li:nth-child(1):before { background-image:url(../pix/login/main_icon01.png); }
+.main_login_info .info_use li:nth-child(2):before { background-image:url(../pix/login/main_icon02.png); }
+.main_login_info .info_use li:nth-child(3):before { background-image:url(../pix/login/main_icon03.png); }
+.main_login_info .info_use li:nth-child(4):before { background-image:url(../pix/login/main_icon04.png); }
+
+.main_login_info .related_site { height:212px; }
+.main_login_info .related_site li { line-height:53px; background-position:15px center; background-repeat:no-repeat; padding-left:40px; color:#666; }
+.main_login_info .related_site li a { color:#666; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; display: block; }
+.main_login_info .related_site li:nth-child(1) { background-image:url(../pix/login/main_icon01_s.png); border-bottom:1px #f2f4f5 solid; }
+.main_login_info .related_site li:nth-child(2) { background-image:url(../pix/login/main_icon02_s.png); border-bottom:1px #f2f4f5 solid;}
+.main_login_info .related_site li:nth-child(3) { background-image:url(../pix/login/main_icon03_s.png); border-bottom:1px #f2f4f5 solid; }
+.main_login_info .related_site li:nth-child(4) { background-image:url(../pix/login/main_icon04_s.png); border-bottom:1px #f2f4f5 solid; }
+.main_login_info .related_site li:nth-child(5) { background-image:url(../pix/login/main_icon05_s.png); border-bottom:1px #f2f4f5 solid;}
+.main_login_info .related_site li:nth-child(6) { background-image:url(../pix/login/main_icon06_s.png); border-bottom:1px #f2f4f5 solid;}
+.main_login_info .related_site li:nth-child(7) { background-image:url(../pix/login/main_icon02_s.png); border-bottom:1px #f2f4f5 solid;}
+
+
+
+/*  main_list_tab  */
+.main_list_tab { position:relative; }
+.main_list_tab .nav-tabs { border-bottom:0; margin-bottom:15px; }
+.main_list_tab .nav-tabs>li:first-child { border-right:1px #e5e5e5 solid !important; margin-right:10px; padding-right:10px; }
+.main_list_tab .nav-tabs>li>a { color:#999; font-size:18px; font-weight:600; line-height:20px; border:none; padding-right:0; margin-right:0; padding:0; }
+.main_list_tab .nav-tabs>li>a:hover { background:none; color:#333; font-weight:600; }
+.main_list_tab .nav-tabs>li.active>a { color:#004c94; border:none; background:none; border-bottom:1px #004c94 solid; }
+.main_list_tab .main_more a { position:absolute; right:0; top:-2px; width:54px; padding:5px 0 2px; text-align:center; color:#666; background-color:#e7e9eb; border-radius:3px; font-size:12px; }
+.main_list_tab .main_more a:hover { background-color:#d9dbde; text-decoration:none; }
+
+.main_list_tab .main_course_more a { position:absolute; right:0; top:-2px; width:54px; padding:5px 0 2px; text-align:center; color:#666; background-color:#e7e9eb; border-radius:3px; font-size:12px; margin-right:20px;}
+.main_list_tab .main_course_more a:hover { background-color:#d9dbde; text-decoration:none; }
+
+/* main_login_course */
+.main_login_course { background:#F2F4F5; /*overflow-y: scroll;  height: calc(100% - 250px); width: calc(100% + 20px); height: 100%;*/ padding:15px 20px; }
+.main_login_course .tab-pane li { height:104px; border-bottom:1px #dfe1e2 solid; padding:12px 0; }
+.main_login_course .tab-pane li:after { content:""; clear:both; display:block; }
+.main_login_course .tab-pane .contents_img,
+.main_login_course .tab-pane .contents_title_box { float:left; }
+.main_login_course .tab-pane .contents_img img { width:125px; height:80px; }
+
+.main_login_course .tab-pane .contents_title_box { position:relative; height:100%; width:50%; margin-left:8px; }
+.main_login_course .tab-pane .contents_title_box .contents_title { font-size:12px; color:#000; line-height:18px; height:42px; padding-top:5px; overflow:hidden; }
+.main_login_course .tab-pane .contents_title_box .contents_name { font-size:12px; color:#808080; line-height:20px; display:block; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;  }
+.main_login_course .tab-pane .contents_title_box .contents_date { font-size:12px; color:#999; line-height:12px; position:absolute; bottom:0; }
+
+
+/* loginpage */
+.loginpage .login-box .login_form { }
+.loginpage .login-box .login_form .form-group { margin-bottom: 5px; position: relative}
+.loginpage .login-box .login_form .input-ubstrap { width:100%; border-radius:0px; height:40px; box-shadow:none; margin:0px; }
+.loginpage .login-box .login_form .btn-default { height:50px; font-weight:bold; font-size:16px; width:100%; border-radius:0px; margin-top:5px; background-color:#0d4e96; color:white; border-color:#0d4e96; }
+
+.loginpage { background-position: center top; background-repeat: no-repeat; background-size: cover; background-attachment: fixed; }
+.loginpage.loginpage_1 { background:url('../pix/login/loginpage_1.jpg') no-repeat; background-size: cover; }
+.loginpage.loginpage_2 { background:url('../pix/login/loginpage_2.jpg') no-repeat; background-size: cover; }
+.loginpage.loginpage_3 { background:url('../../../errorpage/error.html') no-repeat; background-size: cover; }
+.loginpage.loginpage_4 { background:url('../../../errorpage/error.html') no-repeat; background-size: cover; }
+.loginpage #page { background-color:transparent; }
+.loginpage #page-header { padding:30px; height:100px; }
+.loginpage #page-header .logo { background:url('../pix/layout/logo.png') no-repeat; display: block; height: 68px; width: 190px;}
+.loginpage #page-content { margin-left:0px; margin:60px 0; }
+.loginpage #region-main { width:90%; text-align:right; min-height:inherit; }
+
+#page-site-index .col-login-default { display:block; }
+#page-site-index .col-login-person { display:none; }
+#page-login-index .col-login-default { display:block; }
+#page-login-index .col-login-person { display:none; }
+
+
+.col-login-person .login-form-close .nobtn {
+    background: url(../pix/login/login-form-close.png) no-repeat center center;
+    border-radius: 0px;
+    border: 0px;
+    padding: 2px 10px;
+    float : right;
+}
+
+#page-login-index .main_login_bar .error_message.text-danger { font-weight: normal; font-size: 11px; background-color:#7b7676; margin: 0;}
+
+.login_page_course_title { font-size:20px; color:#074390; font-weight:600; background-color:#e7e8e8; padding: 15px 20px;}
+.login_page_course_title .main_more { float: right; right: 0; top: -2px; width: 54px; padding: 5px 0 2px; text-align: center; color: #666; background-color: #F2F4F5; border-radius: 3px; font-size: 12px; font-weight: normal; }
+.login_page_course_title .main_more a { color: #666; }
+
+.scroll_div { overflow-y: scroll;  height: 520px; width: calc(100% + 15px); }

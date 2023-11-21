@@ -1,0 +1,29 @@
+HTTrack3.49-4+libhtsjava.so.2 launched on Tue, 14 Nov 2023 01:29:06 at https://lms.kyonggi.ac.kr/login.php
+(winhttrack https://lms.kyonggi.ac.kr/login.php -W -O "/home/nse_project" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+01:30:53	Error: 	"Not Found" (404) at link https://lms.kyonggi.ac.kr/mod/ubboard/view.php?id=1 (from https://lms.kyonggi.ac.kr/login.php)
+01:30:53	Error: 	"Not Found" (404) at link https://lms.kyonggi.ac.kr/mod/ubboard/view.php?id=2 (from https://lms.kyonggi.ac.kr/login.php)
+01:31:01	Error: 	"Not Found" (404) at link https://lms.kyonggi.ac.kr/mod/ubboard/article.php?id=1&bwid=394317 (from https://lms.kyonggi.ac.kr/login.php)
+01:31:01	Error: 	"Not Found" (404) at link https://lms.kyonggi.ac.kr/mod/ubboard/article.php?id=1&bwid=377655 (from https://lms.kyonggi.ac.kr/login.php)
+01:31:01	Error: 	"Not Found" (404) at link https://lms.kyonggi.ac.kr/mod/ubboard/article.php?id=1&bwid=375305 (from https://lms.kyonggi.ac.kr/login.php)
+01:31:01	Error: 	"Not Found" (404) at link https://lms.kyonggi.ac.kr/mod/ubboard/article.php?id=1&bwid=373663 (from https://lms.kyonggi.ac.kr/login.php)
+01:31:01	Error: 	"Not Found" (404) at link https://lms.kyonggi.ac.kr/mod/ubboard/article.php?id=1&bwid=367218 (from https://lms.kyonggi.ac.kr/login.php)
+01:31:01	Error: 	"Not Found" (404) at link https://lms.kyonggi.ac.kr/mod/ubboard/view.php?id=3 (from https://lms.kyonggi.ac.kr/login.php)
+01:31:58	Error: 	"not found" (404) at link https://lms.kyonggi.ac.kr/theme/styles.php/coursemosv2/1693408461/x.png (from https://lms.kyonggi.ac.kr/theme/styles.php/coursemosv2/1693408461/all)
+01:31:58	Warning: 	See Other for https://lms.kyonggi.ac.kr/
+01:31:58	Warning: 	File has moved from https://lms.kyonggi.ac.kr/ to https://lms.kyonggi.ac.kr/login/index.php
+01:32:00	Warning: 	See Other for https://lms.kyonggi.ac.kr/local/ubion/user/
+01:32:00	Warning: 	File has moved from https://lms.kyonggi.ac.kr/local/ubion/user/ to https://lms.kyonggi.ac.kr/login/index.php
+01:32:02	Warning: 	See Other for https://lms.kyonggi.ac.kr/local/ubassistant/
+01:32:02	Warning: 	File has moved from https://lms.kyonggi.ac.kr/local/ubassistant/ to https://lms.kyonggi.ac.kr/login/index.php
+01:32:44	Error: 	"Not Found" (404) at link https://lms.kyonggi.ac.kr/mod/ubboard/view.php?id=55346 (from https://lms.kyonggi.ac.kr/local/ubion/manual/)
+01:32:44	Warning: 	See Other for https://lms.kyonggi.ac.kr/local/ubmessage/
+01:32:44	Warning: 	File has moved from https://lms.kyonggi.ac.kr/local/ubmessage/ to https://lms.kyonggi.ac.kr/login/index.php
+
+HTTrack Website Copier/3.49-4 mirror complete in 8 minutes 22 seconds : 158 links scanned, 143 files written (24102987 bytes overall) [21444494 bytes received at 42718 bytes/sec], 4467550 bytes transferred using HTTP compression in 404 files, ratio 25%, 35.0 requests per connection
+(10 errors, 8 warnings, 0 messages)

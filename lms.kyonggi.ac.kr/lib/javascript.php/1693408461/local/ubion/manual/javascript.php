@@ -1,0 +1,1 @@
+$(function(){$('a[data-toggle="tab"]').on('shown.bs.tab',function(e){if($(e.target).data('vtype')=='prof'){$(".local_ubion_manual .btn-all-prof").removeClass('hidden');$(".local_ubion_manual .btn-all-stud").addClass('hidden')}else{$(".local_ubion_manual .btn-all-prof").addClass('hidden');$(".local_ubion_manual .btn-all-stud").removeClass('hidden')}})})
